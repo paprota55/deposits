@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/depositsTest
+    username: lokata
+    password: lokata123
+    initialization-mode: always
+server:
+  port: 8080
